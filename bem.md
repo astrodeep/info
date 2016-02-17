@@ -316,9 +316,9 @@ var panel = $('.js­panel');
         color blue
 ```
 
-[Stylus](http://stylus-lang.com/docs/selectors.html#parent-reference)
-[Sass, scss](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#parent-selector)
-[Less](http://lesscss.org/features/#parent-selectors-feature)
+* [Stylus](http://stylus-lang.com/docs/selectors.html#parent-reference)
+* [Sass, scss](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#parent-selector)
+* [Less](http://lesscss.org/features/#parent-selectors-feature)
 
 Кроме того с недавних пор в stylus появился [«Partial Reference»](http://stylus-lang.com/docs/selectors.html#partial-reference) это что то вроде Parent parent selector
 
