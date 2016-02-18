@@ -13,7 +13,7 @@
 * [HTML](html.md)
 * [Список используемых плагинов в редакторах кода или IDE](ide-plugins.md)
 * [Изображения и их оптимизация](images.md)
-* [Jade — HTML препр](jade.md)
+* [Jade - HTML препроцессор](jade.md)
 * [JavaScript Plugins](js-plugins.md)
 * [JavaScript](js.md)
 * [Mobile](mobile.md)
