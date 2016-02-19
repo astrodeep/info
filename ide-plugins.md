@@ -45,6 +45,7 @@ _WS-адепты считают, что их IDE совершенна и не т
 ### VIM
 
 - [neocomplete](https://github.com/Shougo/neocomplete.vim) — крутой автокомплит кода.
+- [nerdtree](https://github.com/scrooloose/nerdtree) — файловый менеджер в окне vim
 
 ### Emacs
 
