@@ -19,6 +19,5 @@
 * [Mobile](mobile.md)
 * [Полезные сервисы](services.md)
 * [Soft](soft.md)
-* [Standart](standart.md)
 * [Stylus](stylus.md)
 
