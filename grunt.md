@@ -19,13 +19,6 @@
 
 Эти 3 шага выполняются один раз.
 
-## Команды для работы с NPM
-
-- `npm i` - установка пакетов, заданных в `package.json` в секции `devDependecies` (устанавленные в текущей папке) и `dependecies` (используются глобально установленные пакеты). Обычно установка выполняется один раз, если пакеты не изменяются.
-- `npm i -D package-name` - установка пакета `package-name`, добавляя его в `package.json`.
-- `npm un -D package-name` - удаление пакета `package-name`, удаляя его из `package.json`.
-- `npm up -D` - обновление версий пакетов и их зависимостей, обновляя версии в `package.json`.
-
 ## Пакеты NPM
 
 Для повседневных задач нам достаточно:
@@ -58,7 +51,6 @@
     * [`coffee`](https://www.npmjs.org/package/grunt-contrib-coffee) - CoffeeScript препроцессор JavaScript.
     * [`less`](https://www.npmjs.org/package/grunt-contrib-less) - Less препроцессор CSS.
     * [`sass`](https://www.npmjs.org/package/grunt-contrib-sass)/[`compass`](https://www.npmjs.org/package/grunt-contrib-compass) - Sass препроцессор CSS.
-
 
 * Если этого будет недостаточно, можно поискать подходящие по ссылкам:
     * [gruntjs.com/plugins](https://gruntjs.com/plugins)
