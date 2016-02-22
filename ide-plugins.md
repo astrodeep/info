@@ -85,6 +85,7 @@ _WS-адепты считают, что их IDE совершенна и не т
 - [NERD Tree](https://github.com/scrooloose/nerdtree) — удобная навигация по дереву файлов и каталогов
 - [bufexplorer](https://github.com/jlanzarotta/bufexplorer) — удобная навигация по открытым буферам
 - [NERD Commenter](https://github.com/scrooloose/nerdcommenter) — поддержка комментирования кода для разных языков
+- [Startify](https://github.com/mhinz/vim-startify) — настройка стартового экрана Vim
 
 ## Emacs
 Мне было лень разбираться, поэтому вот:
