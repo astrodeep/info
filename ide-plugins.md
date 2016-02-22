@@ -82,7 +82,9 @@ _WS-адепты считают, что их IDE совершенна и не т
 
 ## VIM
 - [neocomplete](https://github.com/Shougo/neocomplete.vim) — крутой автокомплит кода.
-- [nerdtree](https://github.com/scrooloose/nerdtree) — файловый менеджер в окне vim
+- [NERD Tree](https://github.com/scrooloose/nerdtree) — удобная навигация по дереву файлов и каталогов
+- [bufexplorer](https://github.com/jlanzarotta/bufexplorer) — удобная навигация по открытым буферам
+- [NERD Commenter](https://github.com/scrooloose/nerdcommenter) — поддержка комментирования кода для разных языков
 
 ## Emacs
 Мне было лень разбираться, поэтому вот:
