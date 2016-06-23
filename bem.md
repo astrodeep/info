@@ -71,10 +71,10 @@
 ### Элемент элемента
 
 ```html
-<ul class="b­list">
-    <li class="b­list__item">
-        <a class="b­list__link">
-            <i class="b­list__link__icon"></i>Text here
+<ul class="b-list">
+    <li class="b-list__item">
+        <a class="b-list__link">
+            <i class="b-list__link__icon"></i>Text here
         </a>
     </li>
 </ul>
@@ -84,10 +84,10 @@
 ### Все есть блок
 
 ```html
-<ul class="b­list">
-    <li class="b­list-item">
-        <a class="b­list-link">
-            <i class="b­icon"></i>Text here
+<ul class="b-list">
+    <li class="b-list-item">
+        <a class="b-list-link">
+            <i class="b-icon"></i>Text here
         </a>
     </li>
 </ul>
@@ -96,11 +96,11 @@
 ### Элемент вне блока
 
 ```html
-<ul class="b­list">
-    <li class="b­list__item">
-        <a class="b­list__link">
-            <i class="b­list__icon"></i>Text
-            <span class="b­map__link">here</span>
+<ul class="b-list">
+    <li class="b-list__item">
+        <a class="b-list__link">
+            <i class="b-list__icon"></i>Text
+            <span class="b-map__link">here</span>
         </a>
     </li>
 </ul>
@@ -110,11 +110,11 @@
 ### Контекстная зависимость блоков
 
 ```stylus
-.b­header
+.b-header
     display block
-    font­size 12px
+    font-size 12px
 
-    .b­link
+    .b-link
         color red
         &:hover
             color green
@@ -124,11 +124,11 @@
 ### Контекстная зависимость элемента
 
 ```stylus
-.b­header
+.b-header
     display block
-    font­size 12px
+    font-size 12px
 
-    .b­tabs__tab
+    .b-tabs__tab
         width 100%
 ```
 
@@ -136,11 +136,11 @@
 ### Наглый модификатор элемента
 
 ```stylus
-.b­list__item_type_goodbye­my­eyes
+.b-list__item_type_goodbye-my-eyes
     background red
     color green
 
-    .b­list__link
+    .b-list__link
         color purple
 ```
 
@@ -148,15 +148,15 @@
 ### Блок, вложенный в себя
 
 ```html
-<ul class="b­list">
-    <li class="b­list__item">
-        <a class="b­list__link">
-            <i class="b­list__icon"></i>Text here
+<ul class="b-list">
+    <li class="b-list__item">
+        <a class="b-list__link">
+            <i class="b-list__icon"></i>Text here
         </a>
-        <ul class="b­list">
-            <li class="b­list__item">
-                <a class="b­list__link">
-                    <i class="b­list__icon"></i>Text here
+        <ul class="b-list">
+            <li class="b-list__item">
+                <a class="b-list__link">
+                    <i class="b-list__icon"></i>Text here
                 </a>
             </li>
         </ul>
@@ -180,19 +180,19 @@
 ### Использование стилевых классов в JavaScript
 
 ```js
-var panel = $('.b­panel');
+var panel = $('.b-panel');
 // vs
-var panel = $('.js­panel');
+var panel = $('.js-panel');
 ```
 
 
 ### Использование холстеров
 
 ```html
-<ul class="b­list h­mt­20 h­mb­50 h­pointer h­left h­color­red">
-    <li class="b­list__item">
-        <a class="b­list__link h­fs­25">
-            <i class="b­list__icon"></i>Text
+<ul class="b-list h-mt-20 h-mb-50 h-pointer h-left h-color-red">
+    <li class="b-list__item">
+        <a class="b-list__link h-fs-25">
+            <i class="b-list__icon"></i>Text
         </a>
     </li>
 </ul>
@@ -202,7 +202,7 @@ var panel = $('.js­panel');
 ### Неиспользование холстеров
 
 ```stylus
-.b­list_float_left
+.b-list_float_left
     float left
 ```
 
@@ -210,19 +210,19 @@ var panel = $('.js­panel');
 ### Одноразовые элементы
 
 ```html
-<ul class="b­list">
-    <li class="b­list__item">Text</li>
-    <li class="b­list__item2">Text</li>
-    <li class="b­list__item3">Text</li>
-    <li class="b­list__item4">Text</li>
+<ul class="b-list">
+    <li class="b-list__item">Text</li>
+    <li class="b-list__item2">Text</li>
+    <li class="b-list__item3">Text</li>
+    <li class="b-list__item4">Text</li>
 </ul>
 ```
 
 ```stylus
-.b­list__item
-.b­list__item2
-.b­list__item3
-.b­list__item4
+.b-list__item
+.b-list__item2
+.b-list__item3
+.b-list__item4
     color red
 ```
 
@@ -230,13 +230,13 @@ var panel = $('.js­panel');
 ### Один файл - весь код
 
 ```stylus
-.b­list
-    list­style none
+.b-list
+    list-style none
 
-.b­list__item
+.b-list__item
     display block
 
-.b­list__link
+.b-list__link
     color red
 ```
 
@@ -244,8 +244,8 @@ var panel = $('.js­panel');
 ### Oldschool reborn
 
 ```stylus
-.b­list
-    list­style none
+.b-list
+    list-style none
     li
         display block
         a
@@ -256,41 +256,41 @@ var panel = $('.js­panel');
 ### Looooooooong naming
 
 ```stylus
-.b­list
-.b­list__item
-.b­list__item­name
-.b­list__item­link
-.b­list__item­icon
-.b­list__item­delim
-.b­list__item­panel
+.b-list
+.b-list__item
+.b-list__item-name
+.b-list__item-link
+.b-list__item-icon
+.b-list__item-delim
+.b-list__item-panel
 ```
 
 
 ### Блоки двойники
 
 ```stylus
-.b­list
-.b­item­list
+.b-list
+.b-item-list
 ```
 
 
 ### Модификатор элементами
 
 ```html
-<ul class="b­list">
-    <li class="b­list__item">
-        <a class="b­list__link">
-            <i class="b­list__icon"></i>Text
+<ul class="b-list">
+    <li class="b-list__item">
+        <a class="b-list__link">
+            <i class="b-list__icon"></i>Text
         </a>
     </li>
 </ul>
 ```
 
 ```html
-<ul class="b­list">
-    <li class="b­list__wrapper">
-        <a class="b­list__panel">
-            <i class="b­list__star"></i>Text
+<ul class="b-list">
+    <li class="b-list__wrapper">
+        <a class="b-list__panel">
+            <i class="b-list__star"></i>Text
         </a>
     </li>
 </ul>
@@ -303,8 +303,8 @@ var panel = $('.js­panel');
 
 ```stylus
 
-.b­list
-    list­style none
+.b-list
+    list-style none
 
     &__item
         display block
