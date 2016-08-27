@@ -64,6 +64,21 @@ p= test
 p= uppercase('Text')
 ```
 
+## Значения по умолчанию у параметров миксинов
+
+```jade
+mixin price-tag(data)
+    - currency = typeof data.currency != "undefined" ? data.currency : 'USD'
+    
+    .price-tag&attributes(attributes)
+        span.price-tag__value= data.value
+        span.price-tag__currency= currency
+
++price-tag({"value": "100"})
++price-tag({"value": "200", "currency": "RUB"})
+
+```
+
 ## Динамическиое имя тега
 ```jade
 mixin tag()
